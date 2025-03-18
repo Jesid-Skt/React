@@ -1,0 +1,6 @@
+es una
+-libreria declarativa muy eficiente y predecible
+que trabaja con componentes en los diferentes tipos de software.
+
+tambien permite trabajar del lado del servidor de la mano con node
+y realizar aplicaciones moviles con react native
