@@ -1,8 +1,0 @@
-Babel es una herramienta de transpilación de JavaScript que permite utilizar 
-las características más recientes del lenguaje, así como sintaxis experimental,
- en entornos que no las soportan de manera nativa. Babel toma el código JavaScript moderno 
- y lo convierte en una versión compatible con navegadores y entornos más antiguos.
-
-Por ejemplo, si escribes código utilizando la sintaxis de ES6 (ECMAScript 2015)
- o posterior, Babel puede transpilar ese código a una versión de ES5 que sea compatible
-  con la mayoría de los navegadores actuales.
