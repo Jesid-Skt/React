@@ -1,14 +1,25 @@
+import PropTypes from 'prop-types';
 
 
-export const FirstApp = () => <h1>Arrow funtion</h1>;
+export const FirstApp = ({title, name, power}) => {
 
+  return (  
+    <>
+      <h1>{title}</h1>
+      <p>{name}</p>
+      <p>{power}</p> 
+    </>
+  )
+};
 
+FirstApp.propTypes = {
+  title: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  power: PropTypes.number,
+}
 
-export function Feliz() {
-    return (
-      <div>
-        <h1>Carita una Feliz!!!</h1>
-        <p>¡Hola! Soy una carita feliz. 😊😊😊</p>
-      </div>
-    );
-  }
+FirstApp.defaultProps = {
+  title: 'No hay titulo',
+  name: 'es un secreto',
+  power: 0,
+}
